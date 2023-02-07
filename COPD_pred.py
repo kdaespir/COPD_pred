@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, KFold
-from sklearn.feature_selection import SelectKBest, chi2
+from sklearn.feature_selection import SelectKBest, chi2, f_classif, f_regression
 from sklearn.linear_model import LogisticRegression
 
 
@@ -9,20 +9,20 @@ class COPD_project:
     def __init__(self) -> None:
 
         # Loads the dataset
-        data = pd.read_csv("dataset.csv")
+        self.data = pd.read_csv("dataset.csv")
 
         # drops the irrelevant features
-        data = data.drop(['Unnamed: 0', 'ID'], axis=1)
+        self.data = self.data.drop(['Unnamed: 0', 'ID'], axis=1)
 
-        data = data.dropna(axis=0)
+        self.data = self.data.dropna(axis=0)
 
         # Replaces the text classifications for COPD severity with numerical ones
-        severity = data["COPDSEVERITY"]
+        severity = self.data["COPDSEVERITY"]
         severity = severity.replace({"MILD": 0, "MODERATE" : 1, "SEVERE" : 2, "VERY SEVERE" : 3})
         self.data["COPDSEVERITY"] = severity
 
-        self.data_x = data.drop(["COPDSEVERITY"], axis=1)
-        self.data_y = data["COPDSEVERITY"]
+        self.data_x = self.data.drop(["COPDSEVERITY"], axis=1)
+        self.data_y = self.data["COPDSEVERITY"]
 
     def data_splits(self):
         # splites the data into training and testing data
@@ -42,5 +42,32 @@ class COPD_project:
         for bool, feat in zip(mask, self.data_x.columns):
             if bool:
                 inclusion.append(feat)
-                
-        print(len(inclusion), len(self.data_x.columns))
+
+       
+    def anova_feat_sel(self):
+
+        model = SelectKBest(f_classif, k="all")
+        anova_feat = model.fit(self.data_x, self.data_y)
+        
+
+        scores = anova_feat.scores_
+        test = list(zip(scores, self.data_x.columns))
+        # print(test)
+
+    def reg_feat_sel(self):
+
+        model = SelectKBest(f_regression, k="all")
+        anova_feat = model.fit(self.data_x, self.data_y)
+        
+
+        scores = anova_feat.scores_
+        test = list(zip(scores, self.data_x.columns))
+        print(test)
+
+
+# if __name__ == "main":
+x = COPD_project()
+x.data_splits()
+x.chisq_feat_sel()
+x.anova_feat_sel()
+x.reg_feat_sel()
