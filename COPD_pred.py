@@ -36,33 +36,38 @@ class COPD_project:
         chi2_feat = SelectKBest(chi2, k="all")
         best_feat = chi2_feat.fit_transform(self.data_x, self.data_y)
 
-        mask = chi2_feat.get_support()
+        imp_feats = chi2_feat.get_support()
 
-        inclusion = []
-        for bool, feat in zip(mask, self.data_x.columns):
+        self.chi2_inclusion = []
+        for bool, feat in zip(imp_feats, self.data_x.columns):
             if bool:
-                inclusion.append(feat)
+                self.chi2_inclusion.append(feat)
 
        
     def anova_feat_sel(self):
+        # Computes the ANOVA F value for each of the features. The higher the score the better the feature is at explaining the outcomes of the dataset
 
         model = SelectKBest(f_classif, k="all")
         anova_feat = model.fit(self.data_x, self.data_y)
         
 
         scores = anova_feat.scores_
-        test = list(zip(scores, self.data_x.columns))
-        # print(test)
+        anovaf_scores = list(zip(scores, self.data_x.columns))
+        self.anovaf_incl = sorted(anovaf_scores, key= lambda tup: tup[0], reverse=True)
 
     def reg_feat_sel(self):
-
+        # Uses linear regression to determine the f scores for each of the features in the dataset. 
         model = SelectKBest(f_regression, k="all")
         anova_feat = model.fit(self.data_x, self.data_y)
         
 
         scores = anova_feat.scores_
-        test = list(zip(scores, self.data_x.columns))
-        print(test)
+        reg_scores = list(zip(scores, self.data_x.columns))
+        self.regf_incl = sorted(reg_scores, key= lambda tup: tup[0], reverse=True)
+    
+    def output_diagnostics(self):
+        with open("copd_pred_diag.txt", "w") as f:
+            f.writelines(f"Chi Square Inlcusion: {self.chi2_inclusion}\nANOVA Inclusion Rank: {self.anovaf_incl}\nRegression Inclusion Rank: {self.regf_incl}")
 
 
 # if __name__ == "main":
@@ -71,3 +76,4 @@ x.data_splits()
 x.chisq_feat_sel()
 x.anova_feat_sel()
 x.reg_feat_sel()
+x.output_diagnostics()
