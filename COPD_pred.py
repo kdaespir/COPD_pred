@@ -2,7 +2,10 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, KFold
 from sklearn.feature_selection import SelectKBest, chi2, f_classif, f_regression
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression, LinearRegression
+from sklearn.metrics import r2_score, mean_squared_error
+import statsmodels.formula.api as smf
+import matplotlib
 
 
 class COPD_project:
@@ -70,10 +73,49 @@ class COPD_project:
             f.writelines(f"Chi Square Inlcusion: {self.chi2_inclusion}\nANOVA Inclusion Rank: {self.anovaf_incl}\nRegression Inclusion Rank: {self.regf_incl}")
 
 
+    def lin_functional_ability(self):
+
+        func_abx = self.data["PackHistory"]
+        func_aby = self.data["MWT1Best"]
+
+        xtrain, xtest, ytrain, ytest = train_test_split(func_abx, func_aby, random_state=0, test_size=0.3)
+        xtrain = np.array(xtrain)
+        xtrain = xtrain.reshape(-1,1)
+
+        xtest = np.array(xtest)
+        xtest = xtest.reshape(-1,1)
+
+        model = LinearRegression()
+        model.fit(xtrain, ytrain)
+        pred = model.predict(xtest)
+
+        model_r2 = r2_score(ytest, pred)
+        model_mse = mean_squared_error(ytest, pred)
+        print(f"the r2 score is {model_r2} whereas the mse is {model_mse}")
+
+    def slr(self):
+        corrmatrix = self.data.corr()
+        
+        model1 = smf.ols('PackHistory ~ MWT1Best', self.data).fit()
+        # print(model1.summary())
+
+        model2 = smf.ols('PackHistory ~ FEV1', self.data).fit()
+        # print(model2.summary())
+
+        model3 = smf.ols('PackHistory ~ FEV1PRED', self.data).fit()
+        # print(model3.summary())
+
+        model4 = smf.ols('PackHistory ~ FVC', self.data).fit()
+        # print(model4.summary())
+
+        model5 = smf.ols('PackHistory ~ FVCPRED', self.data).fit()
+        print(model5.summary())
 # if __name__ == "main":
 x = COPD_project()
-x.data_splits()
-x.chisq_feat_sel()
-x.anova_feat_sel()
-x.reg_feat_sel()
-x.output_diagnostics()
+# x.data_splits()
+# x.chisq_feat_sel()
+# x.anova_feat_sel()
+# x.reg_feat_sel()
+# x.output_diagnostics()
+# x.lin_functional_ability()
+x.slr()
