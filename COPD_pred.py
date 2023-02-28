@@ -96,20 +96,22 @@ class COPD_project:
     def slr(self):
         corrmatrix = self.data.corr()
         
-        model1 = smf.ols('PackHistory ~ MWT1Best', self.data).fit()
+        model1 = smf.ols('MWT1Best ~ PackHistory', self.data).fit()
         # print(model1.summary())
 
-        model2 = smf.ols('PackHistory ~ FEV1', self.data).fit()
+        model2 = smf.ols('FEV1 ~ PackHistory', self.data).fit()
         # print(model2.summary())
 
-        model3 = smf.ols('PackHistory ~ FEV1PRED', self.data).fit()
+        model3 = smf.ols('FEV1PRED ~ PackHistory', self.data).fit()
         # print(model3.summary())
 
-        model4 = smf.ols('PackHistory ~ FVC', self.data).fit()
+        model4 = smf.ols('FVC ~ PackHistory', self.data).fit()
         # print(model4.summary())
 
-        model5 = smf.ols('PackHistory ~ FVCPRED', self.data).fit()
-        print(model5.summary())
+        model5 = smf.ols('FVCPRED ~ PackHistory', self.data).fit()
+        # print(model5.summary())
+
+        print(self.data.corr())
 # if __name__ == "main":
 x = COPD_project()
 # x.data_splits()
