@@ -172,6 +172,6 @@ if ps627.mode == 0:
     ps627.reg_feat_sel()
     ps627.output_diagnostics()
 if ps627.mode == 1:
-    # ps627.copd_pred_logistic()
+    ps627.copd_pred_logistic()
     ps627.slr("CAT")
     ps627.slr_copd_group("CAT")
