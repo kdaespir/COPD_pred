@@ -1,0 +1,448 @@
+COPD group = Mild, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.044
+Method:                 Least Squares   F-statistic:                   0.06300
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.804
+Time:                        11:14:26   Log-Likelihood:                -131.16
+No. Observations:                  23   AIC:                             266.3
+Df Residuals:                      21   BIC:                             268.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    460.6599     18.851     24.437      0.000     421.457     499.863
+CAT           -0.1110      0.442     -0.251      0.804      -1.031       0.809
+==============================================================================
+Omnibus:                        4.550   Durbin-Watson:                   0.112
+Prob(Omnibus):                  0.103   Jarque-Bera (JB):                2.622
+Skew:                          -0.729   Prob(JB):                        0.270
+Kurtosis:                       3.781   Cond. No.                         50.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                 -0.027
+Method:                 Least Squares   F-statistic:                    0.4228
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.523
+Time:                        11:14:26   Log-Likelihood:                -18.044
+No. Observations:                  23   AIC:                             40.09
+Df Residuals:                      21   BIC:                             42.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.4192      0.138     17.546      0.000       2.132       2.706
+CAT           -0.0021      0.003     -0.650      0.523      -0.009       0.005
+==============================================================================
+Omnibus:                        3.908   Durbin-Watson:                   1.738
+Prob(Omnibus):                  0.142   Jarque-Bera (JB):                1.573
+Skew:                          -0.213   Prob(JB):                        0.455
+Kurtosis:                       1.792   Cond. No.                         50.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.127
+Model:                            OLS   Adj. R-squared:                  0.086
+Method:                 Least Squares   F-statistic:                     3.064
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0946
+Time:                        11:14:26   Log-Likelihood:                -28.467
+No. Observations:                  23   AIC:                             60.93
+Df Residuals:                      21   BIC:                             63.21
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.9747      0.217     18.324      0.000       3.524       4.426
+CAT           -0.0089      0.005     -1.750      0.095      -0.019       0.002
+==============================================================================
+Omnibus:                        1.015   Durbin-Watson:                   1.984
+Prob(Omnibus):                  0.602   Jarque-Bera (JB):                0.899
+Skew:                          -0.260   Prob(JB):                        0.638
+Kurtosis:                       2.183   Cond. No.                         50.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.182
+Model:                            OLS   Adj. R-squared:                  0.143
+Method:                 Least Squares   F-statistic:                     4.670
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0424
+Time:                        11:14:26   Log-Likelihood:                 20.018
+No. Observations:                  23   AIC:                            -36.04
+Df Residuals:                      21   BIC:                            -33.77
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.6109      0.026     23.184      0.000       0.556       0.666
+CAT            0.0013      0.001      2.161      0.042    5.03e-05       0.003
+==============================================================================
+Omnibus:                        4.157   Durbin-Watson:                   2.142
+Prob(Omnibus):                  0.125   Jarque-Bera (JB):                2.639
+Skew:                          -0.285   Prob(JB):                        0.267
+Kurtosis:                       4.559   Cond. No.                         50.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.216
+Model:                            OLS   Adj. R-squared:                  0.196
+Method:                 Least Squares   F-statistic:                     10.74
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):            0.00221
+Time:                        11:14:26   Log-Likelihood:                -241.27
+No. Observations:                  41   AIC:                             486.5
+Df Residuals:                      39   BIC:                             490.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    495.8545     30.686     16.159      0.000     433.786     557.923
+CAT           -5.9068      1.802     -3.277      0.002      -9.553      -2.261
+==============================================================================
+Omnibus:                        4.545   Durbin-Watson:                   0.404
+Prob(Omnibus):                  0.103   Jarque-Bera (JB):                3.534
+Skew:                          -0.705   Prob(JB):                        0.171
+Kurtosis:                       3.280   Cond. No.                         37.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.022
+Method:                 Least Squares   F-statistic:                    0.1303
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.720
+Time:                        11:14:26   Log-Likelihood:                -26.957
+No. Observations:                  41   AIC:                             57.91
+Df Residuals:                      39   BIC:                             61.34
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.6138      0.165      9.795      0.000       1.281       1.947
+CAT            0.0035      0.010      0.361      0.720      -0.016       0.023
+==============================================================================
+Omnibus:                        0.097   Durbin-Watson:                   1.971
+Prob(Omnibus):                  0.952   Jarque-Bera (JB):                0.048
+Skew:                           0.058   Prob(JB):                        0.976
+Kurtosis:                       2.878   Cond. No.                         37.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.021
+Method:                 Least Squares   F-statistic:                    0.1820
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.672
+Time:                        11:14:26   Log-Likelihood:                -52.405
+No. Observations:                  41   AIC:                             108.8
+Df Residuals:                      39   BIC:                             112.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.8606      0.306      9.333      0.000       2.241       3.481
+CAT            0.0077      0.018      0.427      0.672      -0.029       0.044
+==============================================================================
+Omnibus:                        4.882   Durbin-Watson:                   2.159
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                4.406
+Skew:                           0.802   Prob(JB):                        0.110
+Kurtosis:                       2.907   Cond. No.                         37.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.024
+Method:                 Least Squares   F-statistic:                   0.06479
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.800
+Time:                        11:14:26   Log-Likelihood:                 34.898
+No. Observations:                  41   AIC:                            -65.80
+Df Residuals:                      39   BIC:                            -62.37
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.5595      0.036     15.352      0.000       0.486       0.633
+CAT            0.0005      0.002      0.255      0.800      -0.004       0.005
+==============================================================================
+Omnibus:                        2.108   Durbin-Watson:                   1.951
+Prob(Omnibus):                  0.349   Jarque-Bera (JB):                1.522
+Skew:                          -0.471   Prob(JB):                        0.467
+Kurtosis:                       3.046   Cond. No.                         37.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.185
+Model:                            OLS   Adj. R-squared:                  0.152
+Method:                 Least Squares   F-statistic:                     5.663
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0253
+Time:                        11:14:26   Log-Likelihood:                -163.95
+No. Observations:                  27   AIC:                             331.9
+Df Residuals:                      25   BIC:                             334.5
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    518.4413     66.344      7.814      0.000     381.803     655.080
+CAT           -6.9843      2.935     -2.380      0.025     -13.029      -0.940
+==============================================================================
+Omnibus:                        0.205   Durbin-Watson:                   0.591
+Prob(Omnibus):                  0.902   Jarque-Bera (JB):                0.280
+Skew:                           0.181   Prob(JB):                        0.869
+Kurtosis:                       2.656   Cond. No.                         71.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.231
+Model:                            OLS   Adj. R-squared:                  0.201
+Method:                 Least Squares   F-statistic:                     7.527
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0111
+Time:                        11:14:26   Log-Likelihood:               -0.17631
+No. Observations:                  27   AIC:                             4.353
+Df Residuals:                      25   BIC:                             6.944
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.5386      0.154      9.992      0.000       1.221       1.856
+CAT           -0.0187      0.007     -2.744      0.011      -0.033      -0.005
+==============================================================================
+Omnibus:                        2.310   Durbin-Watson:                   1.808
+Prob(Omnibus):                  0.315   Jarque-Bera (JB):                1.040
+Skew:                           0.376   Prob(JB):                        0.594
+Kurtosis:                       3.599   Cond. No.                         71.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.118
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     3.338
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0797
+Time:                        11:14:26   Log-Likelihood:                -27.935
+No. Observations:                  27   AIC:                             59.87
+Df Residuals:                      25   BIC:                             62.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.3228      0.430      7.719      0.000       2.436       4.209
+CAT           -0.0348      0.019     -1.827      0.080      -0.074       0.004
+==============================================================================
+Omnibus:                        7.770   Durbin-Watson:                   2.146
+Prob(Omnibus):                  0.021   Jarque-Bera (JB):                2.084
+Skew:                          -0.105   Prob(JB):                        0.353
+Kurtosis:                       1.655   Cond. No.                         71.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                 -0.030
+Method:                 Least Squares   F-statistic:                    0.2527
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.620
+Time:                        11:14:26   Log-Likelihood:                 24.750
+No. Observations:                  27   AIC:                            -45.50
+Df Residuals:                      25   BIC:                            -42.91
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4863      0.061      7.950      0.000       0.360       0.612
+CAT           -0.0014      0.003     -0.503      0.620      -0.007       0.004
+==============================================================================
+Omnibus:                        7.697   Durbin-Watson:                   2.659
+Prob(Omnibus):                  0.021   Jarque-Bera (JB):                2.106
+Skew:                           0.137   Prob(JB):                        0.349
+Kurtosis:                       1.660   Cond. No.                         71.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.263
+Model:                            OLS   Adj. R-squared:                  0.140
+Method:                 Least Squares   F-statistic:                     2.138
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.194
+Time:                        11:14:26   Log-Likelihood:                -44.216
+No. Observations:                   8   AIC:                             92.43
+Df Residuals:                       6   BIC:                             92.59
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    430.4436     98.623      4.365      0.005     189.121     671.766
+CAT           -5.9708      4.083     -1.462      0.194     -15.962       4.021
+==============================================================================
+Omnibus:                        0.050   Durbin-Watson:                   1.090
+Prob(Omnibus):                  0.975   Jarque-Bera (JB):                0.248
+Skew:                           0.125   Prob(JB):                        0.883
+Kurtosis:                       2.175   Cond. No.                         96.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.007
+Model:                            OLS   Adj. R-squared:                 -0.159
+Method:                 Least Squares   F-statistic:                   0.04030
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.848
+Time:                        11:14:26   Log-Likelihood:                 3.8503
+No. Observations:                   8   AIC:                            -3.701
+Df Residuals:                       6   BIC:                            -3.542
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.5941      0.242      2.451      0.050       0.001       1.187
+CAT            0.0020      0.010      0.201      0.848      -0.023       0.027
+==============================================================================
+Omnibus:                        1.827   Durbin-Watson:                   2.320
+Prob(Omnibus):                  0.401   Jarque-Bera (JB):                0.749
+Skew:                           0.164   Prob(JB):                        0.688
+Kurtosis:                       1.537   Cond. No.                         96.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.123
+Model:                            OLS   Adj. R-squared:                 -0.023
+Method:                 Least Squares   F-statistic:                    0.8399
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.395
+Time:                        11:14:26   Log-Likelihood:                -1.9425
+No. Observations:                   8   AIC:                             7.885
+Df Residuals:                       6   BIC:                             8.044
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.2586      0.500      4.516      0.004       1.035       3.482
+CAT           -0.0190      0.021     -0.916      0.395      -0.070       0.032
+==============================================================================
+Omnibus:                        2.231   Durbin-Watson:                   1.999
+Prob(Omnibus):                  0.328   Jarque-Bera (JB):                1.236
+Skew:                          -0.895   Prob(JB):                        0.539
+Kurtosis:                       2.287   Cond. No.                         96.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = CAT
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.173
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     1.256
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.305
+Time:                        11:14:26   Log-Likelihood:                 9.9920
+No. Observations:                   8   AIC:                            -15.98
+Df Residuals:                       6   BIC:                            -15.83
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.2361      0.113      2.098      0.081      -0.039       0.511
+CAT            0.0052      0.005      1.121      0.305      -0.006       0.017
+==============================================================================
+Omnibus:                        0.123   Durbin-Watson:                   3.323
+Prob(Omnibus):                  0.940   Jarque-Bera (JB):                0.283
+Skew:                          -0.204   Prob(JB):                        0.868
+Kurtosis:                       2.175   Cond. No.                         96.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+

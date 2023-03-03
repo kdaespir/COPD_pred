@@ -1,0 +1,448 @@
+COPD group = Mild, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.046
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.015
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.325
+Time:                        10:30:56   Log-Likelihood:                -130.65
+No. Observations:                  23   AIC:                             265.3
+Df Residuals:                      21   BIC:                             267.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept     483.5116     29.605     16.332      0.000     421.944     545.079
+PackHistory    -0.7776      0.772     -1.007      0.325      -2.383       0.828
+==============================================================================
+Omnibus:                        0.811   Durbin-Watson:                   0.134
+Prob(Omnibus):                  0.667   Jarque-Bera (JB):                0.469
+Skew:                          -0.344   Prob(JB):                        0.791
+Kurtosis:                       2.873   Cond. No.                         73.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.045
+Method:                 Least Squares   F-statistic:                   0.04308
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.838
+Time:                        10:30:56   Log-Likelihood:                -18.250
+No. Observations:                  23   AIC:                             40.50
+Df Residuals:                      21   BIC:                             42.77
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       2.3309      0.223     10.436      0.000       1.866       2.795
+PackHistory     0.0012      0.006      0.208      0.838      -0.011       0.013
+==============================================================================
+Omnibus:                        5.611   Durbin-Watson:                   1.718
+Prob(Omnibus):                  0.060   Jarque-Bera (JB):                1.726
+Skew:                          -0.111   Prob(JB):                        0.422
+Kurtosis:                       1.676   Cond. No.                         73.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.9649
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.337
+Time:                        10:30:56   Log-Likelihood:                -29.517
+No. Observations:                  23   AIC:                             63.03
+Df Residuals:                      21   BIC:                             65.30
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       3.4630      0.365      9.500      0.000       2.705       4.221
+PackHistory     0.0093      0.010      0.982      0.337      -0.010       0.029
+==============================================================================
+Omnibus:                        1.229   Durbin-Watson:                   1.842
+Prob(Omnibus):                  0.541   Jarque-Bera (JB):                0.855
+Skew:                          -0.039   Prob(JB):                        0.652
+Kurtosis:                       2.059   Cond. No.                         73.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.089
+Model:                            OLS   Adj. R-squared:                  0.045
+Method:                 Least Squares   F-statistic:                     2.040
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.168
+Time:                        10:30:56   Log-Likelihood:                 18.775
+No. Observations:                  23   AIC:                            -33.55
+Df Residuals:                      21   BIC:                            -31.28
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       0.6962      0.045     15.591      0.000       0.603       0.789
+PackHistory    -0.0017      0.001     -1.428      0.168      -0.004       0.001
+==============================================================================
+Omnibus:                        3.803   Durbin-Watson:                   1.987
+Prob(Omnibus):                  0.149   Jarque-Bera (JB):                1.995
+Skew:                          -0.495   Prob(JB):                        0.369
+Kurtosis:                       4.050   Cond. No.                         73.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.179
+Model:                            OLS   Adj. R-squared:                  0.158
+Method:                 Least Squares   F-statistic:                     8.481
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):            0.00591
+Time:                        10:30:56   Log-Likelihood:                -242.22
+No. Observations:                  41   AIC:                             488.4
+Df Residuals:                      39   BIC:                             491.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept     476.6722     28.072     16.980      0.000     419.890     533.454
+PackHistory    -1.6524      0.567     -2.912      0.006      -2.800      -0.505
+==============================================================================
+Omnibus:                       11.398   Durbin-Watson:                   0.244
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               11.024
+Skew:                          -1.101   Prob(JB):                      0.00404
+Kurtosis:                       4.267   Cond. No.                         97.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.024
+Method:                 Least Squares   F-statistic:                     1.988
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.167
+Time:                        10:30:56   Log-Likelihood:                -26.007
+No. Observations:                  41   AIC:                             56.01
+Df Residuals:                      39   BIC:                             59.44
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       1.8416      0.144     12.798      0.000       1.551       2.133
+PackHistory    -0.0041      0.003     -1.410      0.167      -0.010       0.002
+==============================================================================
+Omnibus:                        0.024   Durbin-Watson:                   1.949
+Prob(Omnibus):                  0.988   Jarque-Bera (JB):                0.156
+Skew:                          -0.052   Prob(JB):                        0.925
+Kurtosis:                       2.716   Cond. No.                         97.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     1.524
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.224
+Time:                        10:30:56   Log-Likelihood:                -51.715
+No. Observations:                  41   AIC:                             107.4
+Df Residuals:                      39   BIC:                             110.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       3.2636      0.269     12.115      0.000       2.719       3.808
+PackHistory    -0.0067      0.005     -1.235      0.224      -0.018       0.004
+==============================================================================
+Omnibus:                        7.054   Durbin-Watson:                   2.139
+Prob(Omnibus):                  0.029   Jarque-Bera (JB):                6.161
+Skew:                           0.933   Prob(JB):                       0.0459
+Kurtosis:                       3.348   Cond. No.                         97.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.025
+Method:                 Least Squares   F-statistic:                   0.01091
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.917
+Time:                        10:30:56   Log-Likelihood:                 34.870
+No. Observations:                  41   AIC:                            -65.74
+Df Residuals:                      39   BIC:                            -62.31
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       0.5648      0.033     17.327      0.000       0.499       0.631
+PackHistory  6.883e-05      0.001      0.104      0.917      -0.001       0.001
+==============================================================================
+Omnibus:                        2.617   Durbin-Watson:                   1.948
+Prob(Omnibus):                  0.270   Jarque-Bera (JB):                1.864
+Skew:                          -0.518   Prob(JB):                        0.394
+Kurtosis:                       3.140   Cond. No.                         97.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.011
+Model:                            OLS   Adj. R-squared:                 -0.029
+Method:                 Least Squares   F-statistic:                    0.2690
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.609
+Time:                        10:30:56   Log-Likelihood:                -166.56
+No. Observations:                  27   AIC:                             337.1
+Df Residuals:                      25   BIC:                             339.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept     387.9898     43.847      8.849      0.000     297.685     478.294
+PackHistory    -0.4384      0.845     -0.519      0.609      -2.179       1.303
+==============================================================================
+Omnibus:                        2.067   Durbin-Watson:                   0.160
+Prob(Omnibus):                  0.356   Jarque-Bera (JB):                0.864
+Skew:                           0.329   Prob(JB):                        0.649
+Kurtosis:                       3.579   Cond. No.                         98.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.038
+Method:                 Least Squares   F-statistic:                   0.05841
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.811
+Time:                        10:30:56   Log-Likelihood:                -3.6981
+No. Observations:                  27   AIC:                             11.40
+Df Residuals:                      25   BIC:                             13.99
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       1.1162      0.105     10.604      0.000       0.899       1.333
+PackHistory     0.0005      0.002      0.242      0.811      -0.004       0.005
+==============================================================================
+Omnibus:                        0.303   Durbin-Watson:                   1.586
+Prob(Omnibus):                  0.859   Jarque-Bera (JB):                0.350
+Skew:                           0.220   Prob(JB):                        0.840
+Kurtosis:                       2.658   Cond. No.                         98.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.040
+Method:                 Least Squares   F-statistic:                   0.01004
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.921
+Time:                        10:30:56   Log-Likelihood:                -29.621
+No. Observations:                  27   AIC:                             63.24
+Df Residuals:                      25   BIC:                             65.83
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       2.5533      0.275      9.287      0.000       1.987       3.119
+PackHistory     0.0005      0.005      0.100      0.921      -0.010       0.011
+==============================================================================
+Omnibus:                        0.670   Durbin-Watson:                   1.911
+Prob(Omnibus):                  0.715   Jarque-Bera (JB):                0.691
+Skew:                           0.123   Prob(JB):                        0.708
+Kurtosis:                       2.256   Cond. No.                         98.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.039
+Method:                 Least Squares   F-statistic:                   0.02395
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.878
+Time:                        10:30:56   Log-Likelihood:                 24.627
+No. Observations:                  27   AIC:                            -45.25
+Df Residuals:                      25   BIC:                            -42.66
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       0.4620      0.037     12.532      0.000       0.386       0.538
+PackHistory    -0.0001      0.001     -0.155      0.878      -0.002       0.001
+==============================================================================
+Omnibus:                        3.806   Durbin-Watson:                   2.688
+Prob(Omnibus):                  0.149   Jarque-Bera (JB):                1.567
+Skew:                           0.148   Prob(JB):                        0.457
+Kurtosis:                       1.858   Cond. No.                         98.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.008
+Model:                            OLS   Adj. R-squared:                 -0.157
+Method:                 Least Squares   F-statistic:                   0.04753
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.835
+Time:                        10:30:56   Log-Likelihood:                -45.403
+No. Observations:                   8   AIC:                             94.81
+Df Residuals:                       6   BIC:                             94.97
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept     305.0035     70.922      4.301      0.005     131.463     478.544
+PackHistory    -0.4503      2.066     -0.218      0.835      -5.505       4.604
+==============================================================================
+Omnibus:                       13.297   Durbin-Watson:                   0.716
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                4.702
+Skew:                           1.663   Prob(JB):                       0.0953
+Kurtosis:                       4.743   Cond. No.                         84.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.095
+Model:                            OLS   Adj. R-squared:                 -0.056
+Method:                 Least Squares   F-statistic:                    0.6310
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.457
+Time:                        10:30:56   Log-Likelihood:                 4.2235
+No. Observations:                   8   AIC:                            -4.447
+Df Residuals:                       6   BIC:                            -4.288
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       0.7454      0.143      5.196      0.002       0.394       1.096
+PackHistory    -0.0033      0.004     -0.794      0.457      -0.014       0.007
+==============================================================================
+Omnibus:                        2.353   Durbin-Watson:                   2.401
+Prob(Omnibus):                  0.308   Jarque-Bera (JB):                0.808
+Skew:                           0.097   Prob(JB):                        0.668
+Kurtosis:                       1.456   Cond. No.                         84.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.229
+Model:                            OLS   Adj. R-squared:                  0.100
+Method:                 Least Squares   F-statistic:                     1.780
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.231
+Time:                        10:30:56   Log-Likelihood:                -1.4275
+No. Observations:                   8   AIC:                             6.855
+Df Residuals:                       6   BIC:                             7.014
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       2.1694      0.291      7.462      0.000       1.458       2.881
+PackHistory    -0.0113      0.008     -1.334      0.231      -0.032       0.009
+==============================================================================
+Omnibus:                        1.389   Durbin-Watson:                   1.246
+Prob(Omnibus):                  0.499   Jarque-Bera (JB):                0.682
+Skew:                           0.666   Prob(JB):                        0.711
+Kurtosis:                       2.480   Cond. No.                         84.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = PackHistory
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.019
+Model:                            OLS   Adj. R-squared:                 -0.145
+Method:                 Least Squares   F-statistic:                    0.1155
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.746
+Time:                        10:30:56   Log-Likelihood:                 9.3081
+No. Observations:                   8   AIC:                            -14.62
+Df Residuals:                       6   BIC:                            -14.46
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       0.3345      0.076      4.403      0.005       0.149       0.520
+PackHistory     0.0008      0.002      0.340      0.746      -0.005       0.006
+==============================================================================
+Omnibus:                        0.964   Durbin-Watson:                   3.091
+Prob(Omnibus):                  0.617   Jarque-Bera (JB):                0.537
+Skew:                           0.561   Prob(JB):                        0.764
+Kurtosis:                       2.407   Cond. No.                         84.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+

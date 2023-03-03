@@ -1,0 +1,448 @@
+COPD group = Mild, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.039
+Method:                 Least Squares   F-statistic:                     1.900
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.183
+Time:                        10:30:29   Log-Likelihood:                -130.20
+No. Observations:                  23   AIC:                             264.4
+Df Residuals:                      21   BIC:                             266.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    650.5933    140.491      4.631      0.000     358.425     942.761
+AGE           -2.8023      2.033     -1.378      0.183      -7.031       1.426
+==============================================================================
+Omnibus:                        3.196   Durbin-Watson:                   0.241
+Prob(Omnibus):                  0.202   Jarque-Bera (JB):                1.585
+Skew:                          -0.554   Prob(JB):                        0.453
+Kurtosis:                       3.654   Cond. No.                         640.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.043
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.9472
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.341
+Time:                        10:30:29   Log-Likelihood:                -17.766
+No. Observations:                  23   AIC:                             39.53
+Df Residuals:                      21   BIC:                             41.80
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.3946      1.059      3.207      0.004       1.193       5.596
+AGE           -0.0149      0.015     -0.973      0.341      -0.047       0.017
+==============================================================================
+Omnibus:                        4.929   Durbin-Watson:                   1.728
+Prob(Omnibus):                  0.085   Jarque-Bera (JB):                1.630
+Skew:                          -0.106   Prob(JB):                        0.443
+Kurtosis:                       1.713   Cond. No.                         640.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.063
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     1.415
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.247
+Time:                        10:30:29   Log-Likelihood:                -29.284
+No. Observations:                  23   AIC:                             62.57
+Df Residuals:                      21   BIC:                             64.84
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      5.8337      1.747      3.340      0.003       2.202       9.466
+AGE           -0.0301      0.025     -1.190      0.247      -0.083       0.022
+==============================================================================
+Omnibus:                        3.841   Durbin-Watson:                   1.953
+Prob(Omnibus):                  0.147   Jarque-Bera (JB):                1.469
+Skew:                           0.116   Prob(JB):                        0.480
+Kurtosis:                       1.784   Cond. No.                         640.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Mild, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.025
+Model:                            OLS   Adj. R-squared:                 -0.021
+Method:                 Least Squares   F-statistic:                    0.5484
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.467
+Time:                        10:30:29   Log-Likelihood:                 18.005
+No. Observations:                  23   AIC:                            -32.01
+Df Residuals:                      21   BIC:                            -29.74
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4773      0.223      2.136      0.045       0.013       0.942
+AGE            0.0024      0.003      0.741      0.467      -0.004       0.009
+==============================================================================
+Omnibus:                        2.309   Durbin-Watson:                   2.012
+Prob(Omnibus):                  0.315   Jarque-Bera (JB):                0.884
+Skew:                          -0.237   Prob(JB):                        0.643
+Kurtosis:                       3.835   Cond. No.                         640.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.051
+Model:                            OLS   Adj. R-squared:                  0.027
+Method:                 Least Squares   F-statistic:                     2.089
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.156
+Time:                        10:30:29   Log-Likelihood:                -245.18
+No. Observations:                  41   AIC:                             494.4
+Df Residuals:                      39   BIC:                             497.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    655.4886    173.118      3.786      0.001     305.324    1005.654
+AGE           -3.5021      2.423     -1.445      0.156      -8.403       1.399
+==============================================================================
+Omnibus:                        3.222   Durbin-Watson:                   0.121
+Prob(Omnibus):                  0.200   Jarque-Bera (JB):                2.989
+Skew:                          -0.637   Prob(JB):                        0.224
+Kurtosis:                       2.647   Cond. No.                         807.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.021
+Method:                 Least Squares   F-statistic:                    0.1861
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.669
+Time:                        10:30:29   Log-Likelihood:                -26.928
+No. Observations:                  41   AIC:                             57.86
+Df Residuals:                      39   BIC:                             61.28
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.0296      0.844      2.404      0.021       0.322       3.737
+AGE           -0.0051      0.012     -0.431      0.669      -0.029       0.019
+==============================================================================
+Omnibus:                        0.042   Durbin-Watson:                   1.987
+Prob(Omnibus):                  0.979   Jarque-Bera (JB):                0.047
+Skew:                          -0.021   Prob(JB):                        0.977
+Kurtosis:                       2.840   Cond. No.                         807.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.023
+Method:                 Least Squares   F-statistic:                    0.1011
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.752
+Time:                        10:30:29   Log-Likelihood:                -52.447
+No. Observations:                  41   AIC:                             108.9
+Df Residuals:                      39   BIC:                             112.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.4753      1.573      2.209      0.033       0.293       6.657
+AGE           -0.0070      0.022     -0.318      0.752      -0.052       0.038
+==============================================================================
+Omnibus:                        5.239   Durbin-Watson:                   2.189
+Prob(Omnibus):                  0.073   Jarque-Bera (JB):                4.769
+Skew:                           0.835   Prob(JB):                       0.0921
+Kurtosis:                       2.922   Cond. No.                         807.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Moderate, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.025
+Method:                 Least Squares   F-statistic:                   0.01152
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.915
+Time:                        10:30:29   Log-Likelihood:                 34.871
+No. Observations:                  41   AIC:                            -65.74
+Df Residuals:                      39   BIC:                            -62.31
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.5478      0.187      2.929      0.006       0.170       0.926
+AGE            0.0003      0.003      0.107      0.915      -0.005       0.006
+==============================================================================
+Omnibus:                        2.377   Durbin-Watson:                   1.960
+Prob(Omnibus):                  0.305   Jarque-Bera (JB):                1.675
+Skew:                          -0.492   Prob(JB):                        0.433
+Kurtosis:                       3.118   Cond. No.                         807.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.118
+Model:                            OLS   Adj. R-squared:                  0.082
+Method:                 Least Squares   F-statistic:                     3.336
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0797
+Time:                        10:30:29   Log-Likelihood:                -165.02
+No. Observations:                  27   AIC:                             334.0
+Df Residuals:                      25   BIC:                             336.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    684.9784    174.550      3.924      0.001     325.486    1044.471
+AGE           -4.4412      2.432     -1.826      0.080      -9.449       0.567
+==============================================================================
+Omnibus:                        0.085   Durbin-Watson:                   0.360
+Prob(Omnibus):                  0.958   Jarque-Bera (JB):                0.258
+Skew:                          -0.106   Prob(JB):                        0.879
+Kurtosis:                       2.571   Cond. No.                         574.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.106
+Model:                            OLS   Adj. R-squared:                  0.070
+Method:                 Least Squares   F-statistic:                     2.952
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):             0.0981
+Time:                        10:30:29   Log-Likelihood:                -2.2228
+No. Observations:                  27   AIC:                             8.446
+Df Residuals:                      25   BIC:                             11.04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.8539      0.420      4.413      0.000       0.989       2.719
+AGE           -0.0101      0.006     -1.718      0.098      -0.022       0.002
+==============================================================================
+Omnibus:                        0.431   Durbin-Watson:                   1.639
+Prob(Omnibus):                  0.806   Jarque-Bera (JB):                0.553
+Skew:                          -0.051   Prob(JB):                        0.758
+Kurtosis:                       2.306   Cond. No.                         574.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.100
+Model:                            OLS   Adj. R-squared:                  0.064
+Method:                 Least Squares   F-statistic:                     2.791
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.107
+Time:                        10:30:29   Log-Likelihood:                -28.198
+No. Observations:                  27   AIC:                             60.40
+Df Residuals:                      25   BIC:                             62.99
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      4.3989      1.099      4.001      0.000       2.134       6.663
+AGE           -0.0256      0.015     -1.670      0.107      -0.057       0.006
+==============================================================================
+Omnibus:                        0.159   Durbin-Watson:                   1.987
+Prob(Omnibus):                  0.923   Jarque-Bera (JB):                0.269
+Skew:                          -0.159   Prob(JB):                        0.874
+Kurtosis:                       2.629   Cond. No.                         574.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.036
+Method:                 Least Squares   F-statistic:                    0.1044
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.749
+Time:                        10:30:29   Log-Likelihood:                 24.670
+No. Observations:                  27   AIC:                            -45.34
+Df Residuals:                      25   BIC:                            -42.75
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4074      0.155      2.626      0.015       0.088       0.727
+AGE            0.0007      0.002      0.323      0.749      -0.004       0.005
+==============================================================================
+Omnibus:                        4.322   Durbin-Watson:                   2.686
+Prob(Omnibus):                  0.115   Jarque-Bera (JB):                1.622
+Skew:                           0.107   Prob(JB):                        0.444
+Kurtosis:                       1.819   Cond. No.                         574.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               MWT1Best   R-squared:                       0.094
+Model:                            OLS   Adj. R-squared:                 -0.057
+Method:                 Least Squares   F-statistic:                    0.6245
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.459
+Time:                        10:30:29   Log-Likelihood:                -45.039
+No. Observations:                   8   AIC:                             94.08
+Df Residuals:                       6   BIC:                             94.24
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    447.6713    200.319      2.235      0.067     -42.491     937.834
+AGE           -2.4076      3.047     -0.790      0.459      -9.863       5.047
+==============================================================================
+Omnibus:                        0.663   Durbin-Watson:                   0.440
+Prob(Omnibus):                  0.718   Jarque-Bera (JB):                0.201
+Skew:                           0.341   Prob(JB):                        0.904
+Kurtosis:                       2.626   Cond. No.                         479.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   FEV1   R-squared:                       0.024
+Model:                            OLS   Adj. R-squared:                 -0.139
+Method:                 Least Squares   F-statistic:                    0.1473
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.714
+Time:                        10:30:29   Log-Likelihood:                 3.9206
+No. Observations:                   8   AIC:                            -3.841
+Df Residuals:                       6   BIC:                            -3.682
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4738      0.440      1.076      0.323      -0.604       1.551
+AGE            0.0026      0.007      0.384      0.714      -0.014       0.019
+==============================================================================
+Omnibus:                        2.053   Durbin-Watson:                   2.426
+Prob(Omnibus):                  0.358   Jarque-Bera (JB):                0.773
+Skew:                           0.129   Prob(JB):                        0.679
+Kurtosis:                       1.499   Cond. No.                         479.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    FVC   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.166
+Method:                 Least Squares   F-statistic:                  0.005727
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.942
+Time:                        10:30:29   Log-Likelihood:                -2.4628
+No. Observations:                   8   AIC:                             8.926
+Df Residuals:                       6   BIC:                             9.084
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.8883      0.978      1.931      0.102      -0.505       4.282
+AGE           -0.0011      0.015     -0.076      0.942      -0.038       0.035
+==============================================================================
+Omnibus:                        2.510   Durbin-Watson:                   1.616
+Prob(Omnibus):                  0.285   Jarque-Bera (JB):                0.694
+Skew:                          -0.721   Prob(JB):                        0.707
+Kurtosis:                       3.005   Cond. No.                         479.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+COPD group = Very Severe, independant = AGE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          fev_fvc_ratio   R-squared:                       0.024
+Model:                            OLS   Adj. R-squared:                 -0.139
+Method:                 Least Squares   F-statistic:                    0.1470
+Date:                Fri, 03 Mar 2023   Prob (F-statistic):              0.715
+Time:                        10:30:29   Log-Likelihood:                 9.3286
+No. Observations:                   8   AIC:                            -14.66
+Df Residuals:                       6   BIC:                            -14.50
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.2731      0.224      1.219      0.269      -0.275       0.821
+AGE            0.0013      0.003      0.383      0.715      -0.007       0.010
+==============================================================================
+Omnibus:                        0.125   Durbin-Watson:                   3.054
+Prob(Omnibus):                  0.940   Jarque-Bera (JB):                0.325
+Skew:                           0.091   Prob(JB):                        0.850
+Kurtosis:                       2.029   Cond. No.                         479.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
