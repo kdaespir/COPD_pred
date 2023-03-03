@@ -149,7 +149,7 @@ class COPD_project:
         data_sev = self.data[self.data["COPDSEVERITY"] == 2]
         data_vsev = self.data[self.data["COPDSEVERITY"] == 3]
 
-        # creates 
+        # creates 2 lists to containing 4 dataframes and each of the metrics being used in OLS regression
         datasets = [data_mild, data_mod, data_sev, data_vsev]
         metrics = ["MWT1Best", "FEV1", "FVC", "fev_fvc_ratio"]
 
