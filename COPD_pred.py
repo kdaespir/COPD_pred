@@ -46,6 +46,7 @@ class COPD_project:
         self.data_x = self.data.drop(["COPDSEVERITY"], axis=1)
         self.data_y = self.data["COPDSEVERITY"]
 
+        self.data.to_csv("PS627_processed_data.csv")
         self.mode = int(input("Feature Selection or Model execution (0/1) "))
 
     def data_splits(self):
@@ -149,15 +150,20 @@ class COPD_project:
         data_sev = self.data[self.data["COPDSEVERITY"] == 2]
         data_vsev = self.data[self.data["COPDSEVERITY"] == 3]
 
-        # creates 
+        # creates 2 lists to containing 4 dataframes and each of the metrics being used in OLS regression
         datasets = [data_mild, data_mod, data_sev, data_vsev]
         metrics = ["MWT1Best", "FEV1", "FVC", "fev_fvc_ratio"]
 
+        # opens an output file based on the independant variable inputted by the user
         with open(f"slr_{indep}_on_copd_by_group.txt", "w") as f:
+            # a for loop to iterate through each of the datasets
             for df in datasets:
+                # a for loop to iterate through each of the metrics
                 for feature in metrics:
-                    print(feature)
+                    # fits the data to a OLS regression model using the current feature in the metric for loop and the independant variable selected by the user
                     model = smf.ols(f"{feature} ~ {indep}", df).fit()
+
+                    # writes the summary of the OLS regression to the output file
                     f.writelines(f"COPD group = {copd_group_labeler(df, datasets)}, independant = {indep}\n")
                     f.writelines(model.summary().as_text())
                     f.writelines("\n\n\n")
